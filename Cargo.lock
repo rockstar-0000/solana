@@ -4549,6 +4549,7 @@ dependencies = [
 ]
 
 [[package]]
+<<<<<<< HEAD
 name = "solana-failure-program"
 version = "1.7.15"
 dependencies = [
@@ -4557,6 +4558,8 @@ dependencies = [
 ]
 
 [[package]]
+=======
+>>>>>>> 785fcb63f (Remove support for dynamically loaded native programs (#20444))
 name = "solana-faucet"
 version = "1.7.15"
 dependencies = [
@@ -4996,6 +4999,7 @@ dependencies = [
 ]
 
 [[package]]
+<<<<<<< HEAD
 name = "solana-noop-program"
 version = "1.7.15"
 dependencies = [
@@ -5005,6 +5009,8 @@ dependencies = [
 ]
 
 [[package]]
+=======
+>>>>>>> 785fcb63f (Remove support for dynamically loaded native programs (#20444))
 name = "solana-notifier"
 version = "1.7.15"
 dependencies = [
@@ -5014,6 +5020,7 @@ dependencies = [
 ]
 
 [[package]]
+<<<<<<< HEAD
 name = "solana-ownable"
 version = "1.7.15"
 dependencies = [
@@ -5026,6 +5033,8 @@ dependencies = [
 ]
 
 [[package]]
+=======
+>>>>>>> 785fcb63f (Remove support for dynamically loaded native programs (#20444))
 name = "solana-perf"
 version = "1.7.15"
 dependencies = [

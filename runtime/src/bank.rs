@@ -5983,6 +5983,11 @@ pub(crate) mod tests {
         status_cache::MAX_CACHE_ENTRIES,
     };
     use crossbeam_channel::{bounded, unbounded};
+<<<<<<< HEAD
+=======
+    #[allow(deprecated)]
+    use solana_sdk::sysvar::fees::Fees;
+>>>>>>> 785fcb63f (Remove support for dynamically loaded native programs (#20444))
     use solana_sdk::{
         account::Account,
         clock::{DEFAULT_SLOTS_PER_EPOCH, DEFAULT_TICKS_PER_SLOT},
@@ -12856,6 +12861,7 @@ pub(crate) mod tests {
     }
 
     #[test]
+<<<<<<< HEAD
     fn test_bad_native_loader() {
         let (genesis_config, mint_keypair) = create_genesis_config(50000);
         let bank = Bank::new(&genesis_config);
@@ -12917,6 +12923,8 @@ pub(crate) mod tests {
     }
 
     #[test]
+=======
+>>>>>>> 785fcb63f (Remove support for dynamically loaded native programs (#20444))
     fn test_debug_bank() {
         let (genesis_config, _mint_keypair) = create_genesis_config(50000);
         let mut bank = Bank::new(&genesis_config);
