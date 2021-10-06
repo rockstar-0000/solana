@@ -4549,17 +4549,6 @@ dependencies = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-name = "solana-failure-program"
-version = "1.7.15"
-dependencies = [
- "solana-runtime",
- "solana-sdk",
-]
-
-[[package]]
-=======
->>>>>>> 785fcb63f (Remove support for dynamically loaded native programs (#20444))
 name = "solana-faucet"
 version = "1.7.15"
 dependencies = [
@@ -4999,18 +4988,6 @@ dependencies = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-name = "solana-noop-program"
-version = "1.7.15"
-dependencies = [
- "log 0.4.14",
- "solana-logger 1.7.15",
- "solana-sdk",
-]
-
-[[package]]
-=======
->>>>>>> 785fcb63f (Remove support for dynamically loaded native programs (#20444))
 name = "solana-notifier"
 version = "1.7.15"
 dependencies = [
@@ -5020,21 +4997,6 @@ dependencies = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-name = "solana-ownable"
-version = "1.7.15"
-dependencies = [
- "bincode",
- "num-derive",
- "num-traits",
- "solana-runtime",
- "solana-sdk",
- "thiserror",
-]
-
-[[package]]
-=======
->>>>>>> 785fcb63f (Remove support for dynamically loaded native programs (#20444))
 name = "solana-perf"
 version = "1.7.15"
 dependencies = [
@@ -5306,7 +5268,6 @@ dependencies = [
  "solana-logger 1.7.15",
  "solana-measure",
  "solana-metrics",
- "solana-noop-program",
  "solana-rayon-threadlimit",
  "solana-sdk",
  "solana-secp256k1-program",
